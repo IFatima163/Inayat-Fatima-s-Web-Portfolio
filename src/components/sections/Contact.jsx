@@ -50,7 +50,7 @@ export const Contact = () => {
                         GitHub
                     </a>
                     <a
-                        href="www.linkedin.com/in/inayat-fatima-qureshi-87b1bb227"
+                        href="https://www.linkedin.com/in/inayat-fatima-qureshi-87b1bb227/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
