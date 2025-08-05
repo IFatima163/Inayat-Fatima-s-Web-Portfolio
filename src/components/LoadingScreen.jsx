@@ -2,9 +2,17 @@ import { useEffect, useState } from "react"
 
 export const LoadingScreen = ({ onComplete }) => {
     const [text, setText] = useState("")
-    const fullText = "const loading = importing portfolio;"
+    const loadingOptions = [
+        "const loading..",
+        "fetching CreativeGenius();",
+        "initializing personal universe..",
+        "fluffing the pixels..",
+        "importing awesomeness"
+    ]
 
     useEffect(() => {
+        const fullText = loadingOptions[Math.floor(Math.random() * loadingOptions.length)]
+
         let index = 0
         const interval = setInterval(() => {
             setText(fullText.substring(0, index))
@@ -29,7 +37,7 @@ export const LoadingScreen = ({ onComplete }) => {
             </div>
 
             <div className="w-[200px] h-[2px] bg-gray-800 rounded relative overflow-hidden">
-                <div className="w-[40%] h-full bg-blue-500 shadow-[0_0_15px_#3b82f6] animate-loading-bar">
+                <div className="w-[40%] h-full bg-gradient-to-r from-purple-500 to-blue-400 shadow-[0_0_15px_#3b82f6] animate-loading-bar">
                     {" "}
                 </div>
             </div>

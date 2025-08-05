@@ -3,7 +3,7 @@ import { RevealOnScroll } from "../RevealOnScroll"
 export const Projects = () => {
     return (
         <section id="projects" className="min-h-screen flex items-center justify-center py-20"> 
-            <RevealOnScroll>
+            {/*<RevealOnScroll>*/}
                 <div className="max-w-5xl mx-auto px-4">
                     <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-blue-400 
                             bg-clip-text text-transparent text-center">
@@ -11,7 +11,7 @@ export const Projects = () => {
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                  hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">AI-Powered System for Disaster & Crime Management</h3>
                             <p className="text-gray-400 mb-4">
@@ -21,8 +21,8 @@ export const Projects = () => {
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                         {["AI & Machine Learning", "Research"].map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
+                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
                                                 transition-all">
                                             {tech}
                                     </span>
@@ -31,12 +31,12 @@ export const Projects = () => {
 
                             {/* Add the following after research paper has been published
                             <div className="flex justify-end items-center">
-                                <a href="#" target="_blank" className="text-blue-400 hover:text-blue-300 
+                                <a href="#" target="_blank" className="text-purple-400 hover:text-purple-300 
                                 transition-colors my-4">View Paper</a>
                             </div>*/}
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Web-Development Portfolio</h3>
                             <p className="text-gray-400 mb-4">
@@ -46,22 +46,25 @@ export const Projects = () => {
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                         {["React", "TailwindCSS", "Vite", "Vercel", "HTML", "CSS"].map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
+                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
                                                 transition-all">
                                             {tech}
                                     </span>
                                 ))}
                             </div>
 
-                            {/* Add GitHub link here after creating it
                             <div className="flex justify-end items-center">
-                                <a href="#" target="_blank" className="text-blue-400 hover:text-blue-300 transition-colors 
-                                my-4">Open in GitHub</a>
-                            </div>*/}
+                                <a href="https://github.com/IFatima163/Inayat-Fatima-s-Web-Portfolio" target="_blank" 
+                                        className="text-purple-400 hover:text-purple-300 transition-colors my-4">Open in GitHub</a>
+                                {/*<a href="https://ifatima163.github.io/Inayat-Fatima-s-Web-Portfolio/#projects" 
+                                        className="text-purple-400 hover:text-purple-300 transition-colors my-4">
+                                    | Open in Browser
+                                </a>*/}
+                            </div>
                         </div>
                         
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">2D Top-Down Tile-Based Game (Game Dev. Portfolio | Outdated)</h3>
                             <p className="text-gray-400 mb-4">
@@ -70,8 +73,8 @@ export const Projects = () => {
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["C#", "SQL", "Agile & Scrum", "VSCode", "Unity", "Game Development", "Gimp & Canva"].map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
+                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all">
                                             {tech}
                                     </span>
                                 ))}
@@ -79,15 +82,15 @@ export const Projects = () => {
 
                             <div className="flex justify-end items-center gap-2">
                                 <a href="https://github.com/IFatima163/iFatima-s_Interactive_Portfolio.git" target="_blank" 
-                                        className="text-blue-400 hover:text-blue-300 transition-colors my-4">Open in GitHub</a>
+                                        className="text-purple-400 hover:text-purple-300 transition-colors my-4">Open in GitHub</a>
                                 <a href="https://inayatfatima.itch.io/ifatima-portfolio" target="_blank" 
-                                        className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                                        className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                     | Play Now
                                 </a>
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Artificial Farokht Assistant (AFA)</h3>
                             <p className="text-gray-400 mb-4">
@@ -98,8 +101,8 @@ export const Projects = () => {
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["Python", "AI & Machine Learning", "Data Analysis & Visualization", "Software Documentation", 
                                         "Agile & Scrum", "VSCode", "Leadership"].map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
+                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
                                                         transition-all">
                                             {tech}
                                     </span>
@@ -107,14 +110,14 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-end items-center">
-                                <a href="https://github.com/alihassan0007/AFA.git" target="_blank" className="text-blue-400 
-                                        hover:text-blue-300 transition-colors my-4">
+                                <a href="https://github.com/alihassan0007/AFA.git" target="_blank" className="text-purple-400 
+                                        hover:text-purple-300 transition-colors my-4">
                                     Open in GitHub
                                 </a>
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Deaf & Dumb Communication App</h3>
                             <p className="text-gray-400 mb-4">
@@ -124,8 +127,8 @@ export const Projects = () => {
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["C#", "SQL", "Agile & Scrum", "VSCode", "Unity", "Game Development", "Firebase"].map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
+                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
                                                         transition-all">
                                             {tech}
                                     </span>
@@ -134,13 +137,13 @@ export const Projects = () => {
 
                             <div className="flex justify-end items-center">
                                 <a href="https://github.com/IFatima163/Deaf-Dumb-Communication-Android-App.git" target="_blank" 
-                                        className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                                        className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                     Open in GitHub
                                 </a>
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Kitchen Chaos</h3>
                             <p className="text-gray-400 mb-4">
@@ -148,8 +151,8 @@ export const Projects = () => {
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["C#", "VSCode", "Unity", "Game Development"].map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
+                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
                                                         transition-all">
                                             {tech}
                                     </span>
@@ -158,13 +161,13 @@ export const Projects = () => {
 
                             <div className="flex justify-end items-center">
                                 <a href="https://github.com/IFatima163/KitchenChaos-WebGame.git" target="_blank" 
-                                        className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                                        className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                     Open in GitHub
                                 </a>
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Mega Slasher</h3>
                             <p className="text-gray-400 mb-4">
@@ -172,8 +175,8 @@ export const Projects = () => {
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["C#", "VSCode", "Unity", "Game Development"].map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
+                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
                                                         transition-all">
                                             {tech}
                                     </span>
@@ -182,13 +185,13 @@ export const Projects = () => {
 
                             <div className="flex justify-end items-center">
                                 <a href="https://github.com/IFatima163/MegaSlasher-Mobile-Web-Game.git" target="_blank" 
-                                        className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                                        className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                     Open in GitHub
                                 </a>
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Monster Chase</h3>
                             <p className="text-gray-400 mb-4">
@@ -196,8 +199,8 @@ export const Projects = () => {
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["C#", "VSCode", "Unity", "Game Development"].map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
+                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
                                                         transition-all">
                                             {tech}
                                     </span>
@@ -206,13 +209,13 @@ export const Projects = () => {
 
                             <div className="flex justify-end items-center">
                                 <a href="https://github.com/IFatima163/MonsterChase-WebGame.git" target="_blank" 
-                                        className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                                        className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                     Open in GitHub
                                 </a>
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Black Jack</h3>
                             <p className="text-gray-400 mb-4">
@@ -220,8 +223,8 @@ export const Projects = () => {
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["HTML", "CSS", "Javascript", "Game Development"].map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
+                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
                                                         transition-all">
                                             {tech}
                                     </span>
@@ -230,13 +233,13 @@ export const Projects = () => {
 
                             <div className="flex justify-end items-center">
                                 <a href="https://github.com/IFatima163/Black-Jack-using-JS.git" target="_blank" 
-                                        className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                                        className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                     Open in GitHub
                                 </a>
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">People Counter</h3>
                             <p className="text-gray-400 mb-4">
@@ -244,8 +247,8 @@ export const Projects = () => {
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["HTML", "CSS", "Javascript", "Game Development"].map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
+                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
                                                         transition-all">
                                             {tech}
                                     </span>
@@ -254,13 +257,13 @@ export const Projects = () => {
 
                             <div className="flex justify-end items-center">
                                 <a href="https://github.com/IFatima163/PeopleCounter.git" target="_blank" 
-                                        className="text-blue-400 hover:text-blue-300 transition-colors my-4">
+                                        className="text-purple-400 hover:text-purple-300 transition-colors my-4">
                                     Open in GitHub
                                 </a>
                             </div>
                         </div>
 
-                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Watch Later Priority List</h3>
                             <p className="text-gray-400 mb-4">
@@ -270,8 +273,8 @@ export const Projects = () => {
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {["Java", "VSCode"].map((tech, key) => (
-                                    <span key={key} className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full 
-                                                text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
+                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
                                                         transition-all">
                                             {tech}
                                     </span>
@@ -280,7 +283,7 @@ export const Projects = () => {
                         </div>
                     </div>
                 </div>
-            </RevealOnScroll>
+            {/*</RevealOnScroll>*/}
         </section>
     )
 }

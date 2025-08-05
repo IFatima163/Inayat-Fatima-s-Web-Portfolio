@@ -3,7 +3,7 @@ import { useEffect } from "react"
 export const MobileMenu = ({menuOpen, setMenuOpen}) => {
     
     return (
-        <div className={`fixed to-0 left-0 w-full bg-[rgba(10, 10, 10, 0.8)] z-40 flex flex-col items-center 
+        <div className={`fixed top-0 left-0 w-full bg-[rgba(10,10,10,0.95)] z-40 flex flex-col items-center 
                 justify-center transition-all duration-300 ease-in-out
                 ${
                     menuOpen
@@ -43,6 +43,32 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                 About
             </a>
             <a
+                href="#skills"
+                onClick={() => setMenuOpen(false)}
+                className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                    ${
+                        menuOpen
+                            ? "opacity-100 translate-y-0"
+                            : "opacity-0 translate-y-5"
+                    }
+                `}
+            >
+                Skills
+            </a>
+            <a
+                href="#experience"
+                onClick={() => setMenuOpen(false)}
+                className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                    ${
+                        menuOpen
+                            ? "opacity-100 translate-y-0"
+                            : "opacity-0 translate-y-5"
+                    }
+                `}
+            >
+                Experience
+            </a>
+            <a
                 href="#projects"
                 onClick={() => setMenuOpen(false)}
                 className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
@@ -54,6 +80,19 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
                 `}
             >
                 Projects
+            </a>
+            <a
+                href="#testimonials"
+                onClick={() => setMenuOpen(false)}
+                className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
+                    ${
+                        menuOpen
+                            ? "opacity-100 translate-y-0"
+                            : "opacity-0 translate-y-5"
+                    }
+                `}
+            >
+                Testimonials
             </a>
             <a
                 href="#contact"
