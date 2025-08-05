@@ -38,6 +38,35 @@ export const Projects = () => {
 
                         <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
+                            <h3 className="text-xl font-bold mb-2">Efficio: Task Manager</h3>
+                            <p className="text-gray-400 mb-4">
+                                A simple task manager web-app created as a practice project to understand useState, useEffect, events, and .map().
+                                It consists of simple add, update, delete options with a "Delete All Tasks" option as well, a category to specify 
+                                whether your task is general, personal, or other, and a category to set the priority of you task. It also shows a 
+                                visual bar at the bottom to track progress, as well as countdown for total tasks completed.
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                        {["React", "TailwindCSS", "Vite", "Vercel", "HTML", "CSS"].map((tech, key) => (
+                                    <span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full 
+                                                text-sm hover:bg-purple-500/20 hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] 
+                                                transition-all">
+                                            {tech}
+                                    </span>
+                                ))}
+                            </div>
+
+                            <div className="flex justify-end items-center">
+                                <a href="https://github.com/IFatima163/Inayat-Fatima-s-Web-Portfolio" target="_blank" 
+                                        className="text-purple-400 hover:text-purple-300 transition-colors my-4">Open in GitHub</a>
+                                {/*<a href="https://ifatima163.github.io/Inayat-Fatima-s-Web-Portfolio/#projects" 
+                                        className="text-purple-400 hover:text-purple-300 transition-colors my-4">
+                                    | Open in Browser
+                                </a>*/}
+                            </div>
+                        </div>
+
+                        <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
+                                hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
                             <h3 className="text-xl font-bold mb-2">Web-Development Portfolio</h3>
                             <p className="text-gray-400 mb-4">
                                 A very pretty and user-friendly portfolio website created to showcase my professional career 

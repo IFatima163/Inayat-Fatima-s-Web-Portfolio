@@ -60,10 +60,11 @@ export const About = () => {
     ]
     
     const languages = [
-        "English", 
-        "Urdu",
-        "Sindhi",
-        "Hindi"
+        "English (5/5)", 
+        "Urdu (5/5)",
+        "Sindhi (4/5)",
+        "Hindi (3/5)",
+        "German (1/5)"
     ]
 
     return (
