@@ -56,7 +56,7 @@ export const Projects = () => {
                             </div>
 
                             <div className="flex justify-end items-center">
-                                <a href="https://github.com/IFatima163/Inayat-Fatima-s-Web-Portfolio" target="_blank" 
+                                <a href="https://github.com/IFatima163/Efficio-TaskManager.git" target="_blank" 
                                         className="text-purple-400 hover:text-purple-300 transition-colors my-4">Open in GitHub</a>
                                 {/*<a href="https://ifatima163.github.io/Inayat-Fatima-s-Web-Portfolio/#projects" 
                                         className="text-purple-400 hover:text-purple-300 transition-colors my-4">

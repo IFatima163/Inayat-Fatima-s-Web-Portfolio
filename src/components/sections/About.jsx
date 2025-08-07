@@ -9,7 +9,8 @@ export const About = () => {
         "Vercel",
         "HTML",
         "CSS",
-        "Bootstrap"
+        "Bootstrap",
+        "ShadCN"
     ]
 
     const backendSkills = [
@@ -106,6 +107,38 @@ export const About = () => {
                                                 {tech}
                                             </span>
                                         ))}
+                                    </div>
+                                </div>
+
+                                <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                                    <h3 className="text-xl font-bold mb-4">Honors & Awards</h3>
+                                    <div className="flex flex-wrap gap-2">
+                                        <ul className="list-disc list-inside text-gray-400 space-y-2">
+                                            <li>
+                                                <strong className="text-white">
+                                                    Silver Medal Achiever Certificate</strong><br/>
+                                                Issued by Mohammad Ali Jinnah University (Jul 2024)<br/>
+                                                For having the second highest CGPA in the batch (CGPA: 3.88)<br/>
+                                            </li>
+                                        </ul>
+                                        <br/>
+                                        <ul className="list-disc list-inside text-gray-400 space-y-2">
+                                            <li>
+                                                <strong className="text-white">
+                                                    Chancellor Honour Roll for Spring 2023</strong><br/>
+                                                Issued by Mohammad Ali Jinnah University (Nov 2023)<br/>
+                                                Issued for scoring 3.9+ GPA in Spring 2023<br/>
+                                            </li>
+                                        </ul>
+                                        <br/>
+                                        <ul className="list-disc list-inside text-gray-400 space-y-2">
+                                            <li>
+                                                <strong className="text-white">
+                                                    President Honour Roll for Fall 2022</strong><br/>
+                                                Issued by Mohammad Ali Jinnah University (May 2023)<br/>
+                                                Issued for scoring a perfect 4 GPA in Fall 2022<br/>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
