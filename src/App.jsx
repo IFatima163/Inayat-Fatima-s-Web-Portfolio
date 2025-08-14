@@ -20,7 +20,7 @@ function App() {
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />}
       <div className={`min-h-screen transition-opacity duration-700 ${
         isLoaded ? "opacity-100" : "opacity-0"
-        } bg-black text-gray-100`}
+        } bg-black/60 text-gray-100`}
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
@@ -30,6 +30,9 @@ function App() {
         <Certificates />
         <Testimonials />
         <Contact />
+        <footer className="mt-12 text-center">
+          <p className="text-gray-500 text-sm pb-6">Last Updated - August 2025 | Thanks for visiting ♥</p>
+        </footer>
       </div>
     </>
   )

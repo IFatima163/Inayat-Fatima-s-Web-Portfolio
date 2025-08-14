@@ -8,10 +8,12 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
         <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
             <div className="max-w-5xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
-                    <a href="#home" className="font-mono text-xl font-bold text-white">
+                    <a 
+                        href="#home" 
+                        className="flex items-center gap-1 px-4 py-2 font-mono text-xl font-bold text-white">
+                        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="w-7 h-7" />
                         Fatima's <span className="bg-gradient-to-r from-purple-500 to-blue-400 bg-clip-text text-transparent">Portfolio</span>
                     </a>
-
                     <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
                     onClick={() => setMenuOpen((prev) => !prev)}
                     >

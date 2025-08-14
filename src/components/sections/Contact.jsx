@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { RevealOnScroll } from "../RevealOnScroll"
+import RevealOnScroll from "../RevealOnScroll"
 import emailjs from "emailjs-com"
 
 export const Contact = () => {
@@ -29,7 +29,7 @@ export const Contact = () => {
 
     return(
         <section id="contact" className="min-h-screen flex items-center justify-center py-20">
-            {/*<RevealOnScroll>*/}
+            <RevealOnScroll>
                 <div className="max-w-4xl mx-auto px-6 text-center">
                     <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-blue-400 
                             bg-clip-text text-transparent text-center">
@@ -38,58 +38,57 @@ export const Contact = () => {
                     <p className="text-gray-300 mb-6">
                         I'm open to freelance opportunities, collaborations, and internships.<br/>
                         If you like what you see, reach out - I’d love to hear from you.
-                    </p>                    
+                    </p>    
+                    {/* Socials Buttons */}
                     <div className="flex flex-wrap justify-center gap-4 mb-8">
-                    <a
-                        href="https://github.com/IFatima163"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
-                    >
-                        <img src={`${import.meta.env.BASE_URL}github.png`} alt="GitHub" className="w-5 h-5" />
-                        GitHub
-                    </a>
-                    <a
-                        href="https://www.linkedin.com/in/inayat-fatima-qureshi-87b1bb227/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
-                    >
-                        <img src={`${import.meta.env.BASE_URL}linkedin.png`} alt="LinkedIn" className="w-5 h-5" />
-                        LinkedIn
-                    </a>
-                    <a
-                        href="https://itch.io/dashboard"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
-                    >
-                        <img src={`${import.meta.env.BASE_URL}itch.png`} alt="Itch.io" className="w-5 h-5" />
-                        Itch.io
-                    </a>
-                    <a
-                        href={`${import.meta.env.BASE_URL}resume.pdf`}
-                        target="_blank"
-                        className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
-                    >
-                        <span>📄</span>
-                        View Resume
-                    </a>
-                    <a
-                        href={`${import.meta.env.BASE_URL}resume.pdf`}
-                        download
-                        className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
-                    >
-                        <span>⬇️</span>
-                        Download Resume
-                    </a>
+                        <a
+                            href="https://github.com/IFatima163"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
+                        >
+                            <img src={`${import.meta.env.BASE_URL}github.png`} alt="GitHub" className="w-5 h-5" />
+                            GitHub
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/in/inayat-fatima-qureshi-87b1bb227/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
+                        >
+                            <img src={`${import.meta.env.BASE_URL}linkedin.png`} alt="LinkedIn" className="w-5 h-5" />
+                            LinkedIn
+                        </a>
+                        <a
+                            href="https://itch.io/dashboard"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
+                        >
+                            <img src={`${import.meta.env.BASE_URL}itch.png`} alt="Itch.io" className="w-5 h-5" />
+                            Itch.io
+                        </a>
+                        <a
+                            href={`${import.meta.env.BASE_URL}resume.pdf`}
+                            target="_blank"
+                            className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
+                        >
+                            <span>📄</span>
+                            View Resume
+                        </a>
+                        <a
+                            href={`${import.meta.env.BASE_URL}resume.pdf`}
+                            download
+                            className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
+                        >
+                            <span>⬇️</span>
+                            Download Resume
+                        </a>
                     </div>
-                    <p className="text-gray-500 text-sm mt-6">
+                    <p className="text-gray-500 text-sm my-6">
                     Prefer to talk directly? Call or message me at <span className="text-white">+60 10 202 6820</span>
                     </p>
-                    <h4 className="text-xl font-bold mb-4 mt-8">
-                        Let's Talk
-                    </h4>
+                    {/* Message me Form */}
                     <form className="space-y-6" onSubmit={handleSubmit}>
                         <div className="relative">
                             <input type="text" id="name" name="name" required value={formData.name} className="w-full 
@@ -116,7 +115,7 @@ export const Contact = () => {
                         </button>
                     </form>
                 </div>
-            {/*</RevealOnScroll>*/}
+            </RevealOnScroll>
         </section>
     )
 }

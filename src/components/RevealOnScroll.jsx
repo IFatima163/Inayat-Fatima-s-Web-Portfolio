@@ -1,26 +1,33 @@
-import { useEffect, useRef} from "react"
+import { useEffect, useRef, useState } from "react";
 
-export const RevealOnScroll = ({children}) => {
-    const ref = useRef(null)
+export default function RevealOnScroll({ children }) {
+  const domRef = useRef();
+  const [isVisible, setVisible] = useState(false);
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    ref.current.classList.add("visible");
-                }
-            },
-            { threshold: 0.2, rootMargin: "0px 0px -50px 0px" }
-        )
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setVisible(true);
+            observer.unobserve(domRef.current); // only animate once
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
 
-        if (ref.current) observer.observe(ref.current)
+    observer.observe(domRef.current);
 
-        return () => observer.disconnect()
-    })
+    return () => observer.disconnect();
+  }, []);
 
-    return (
-        <div ref={ref} className="reveal">
-            {children}
-        </div>
-    )
+  return (
+    <div
+      ref={domRef}
+      className={`fade-section ${isVisible ? "visible" : ""}`}
+    >
+      {children}
+    </div>
+  );
 }
