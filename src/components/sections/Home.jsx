@@ -1,4 +1,4 @@
-import headshot from "/headshot.png";
+import headshot from "/General/headshot.png";
 
 export const Home = () => {
     return (

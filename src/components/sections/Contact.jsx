@@ -47,7 +47,7 @@ export const Contact = () => {
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
                         >
-                            <img src={`${import.meta.env.BASE_URL}github.png`} alt="GitHub" className="w-5 h-5" />
+                            <img src={`${import.meta.env.BASE_URL}ContactMeButtons/github.png`} alt="GitHub" className="w-5 h-5" />
                             GitHub
                         </a>
                         <a
@@ -56,7 +56,7 @@ export const Contact = () => {
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
                         >
-                            <img src={`${import.meta.env.BASE_URL}linkedin.png`} alt="LinkedIn" className="w-5 h-5" />
+                            <img src={`${import.meta.env.BASE_URL}ContactMeButtons/linkedin.png`} alt="LinkedIn" className="w-5 h-5" />
                             LinkedIn
                         </a>
                         <a
@@ -65,7 +65,7 @@ export const Contact = () => {
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
                         >
-                            <img src={`${import.meta.env.BASE_URL}itch.png`} alt="Itch.io" className="w-5 h-5" />
+                            <img src={`${import.meta.env.BASE_URL}ContactMeButtons/itch.png`} alt="Itch.io" className="w-5 h-5" />
                             Itch.io
                         </a>
                         <a

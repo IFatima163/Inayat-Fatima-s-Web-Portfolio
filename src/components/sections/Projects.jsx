@@ -44,11 +44,11 @@ export const Projects = () => {
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full"
                             >
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
+                                <img 
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/CryptoTracker.png`} 
                                     alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                />
                                 <h3 className="text-xl font-bold mb-2">Cryptocurrency Tracker with CoinGecko API</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     A single page tabular showcase of current pricing & 24 hr state of the top 100 cyrptocurrencies with a pop-up 
@@ -80,11 +80,11 @@ export const Projects = () => {
                             {/* Weather App */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                     hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full">
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
-                                    alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                <img 
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/WeatherApp.png`} 
+                                    alt="Weather App Preview" 
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                />
                                 <h3 className="text-xl font-bold mb-2">Weather App with OpenWeatherMap API</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     Webpage where you can search any city name to view the current weather of that place.
@@ -114,11 +114,11 @@ export const Projects = () => {
                             {/* Task Manager */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                     hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full">
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
-                                    alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                <img 
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/TaskManager.png`}  
+                                    alt="Task Manager Preview" 
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                />
                                 <h3 className="text-xl font-bold mb-2">Efficio: Task Manager</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     A simple task manager web-app created as a practice project to understand useState, useEffect, events, and .map().
@@ -148,11 +148,11 @@ export const Projects = () => {
                             {/* Web Dev Portfolio */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                     hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full">
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
-                                    alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                <img 
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/WebPortfolio.png`}  
+                                    alt="Web Dev Portfolio Preview" 
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                />
                                 <h3 className="text-xl font-bold mb-2">Web-Development Portfolio</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     A very pretty and user-friendly portfolio website created to showcase my professional career 
@@ -181,11 +181,15 @@ export const Projects = () => {
                             {/* Game Dev Portfolio */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                     hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full">
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
-                                    alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                <video
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/GamePortfolio.mp4`} 
+                                    alt="Game Dev Portfolio Playthrough"
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                ></video>
                                 <h3 className="text-xl font-bold mb-2">2D Top-Down Tile-Based Game (Game Dev. Portfolio | Outdated)</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     Designed, developed, tested, and deployed (on itch.io) a 2D top-down tile-based game to showcase 
@@ -216,11 +220,11 @@ export const Projects = () => {
                             {/* AFA */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                     hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full">
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
-                                    alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                <img 
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/AFA.png`}  
+                                    alt="AFA Preview" 
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                />
                                 <h3 className="text-xl font-bold mb-2">Artificial Farokht Assistant (AFA)</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     Developed and tested ERP-CRM-POS hybrid solution. Led QA efforts on backend modules, 
@@ -250,11 +254,15 @@ export const Projects = () => {
                             {/* Deaf & Dumb Comm. App */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                     hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full">
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
-                                    alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                <video
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/Deaf&Dumb.mp4`} 
+                                    alt="Deaf & Dumb Walkthrough"
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                ></video>
                                 <h3 className="text-xl font-bold mb-2">Deaf & Dumb Communication App</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     Full stack developed communication help to ease the communication process between those that 
@@ -282,12 +290,17 @@ export const Projects = () => {
                         <RevealOnScroll>
                             {/* Kitchen Chaos */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
-                                    hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
-                                    alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition"
+                            >
+                                <video
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/KitchenChaos.mp4`} 
+                                    alt="Kitchen Chaos Playthrough"
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                ></video>
                                 <h3 className="text-xl font-bold mb-2">Kitchen Chaos</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     Practice Project single-player game used as training during my 4-month long internship. Followed a YouTube tutorial.
@@ -313,12 +326,17 @@ export const Projects = () => {
                         <RevealOnScroll>
                             {/* Mega Slasher */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
-                                    hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition">
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
-                                    alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition"
+                            >
+                                <video
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/MegaSlasher.mp4`} 
+                                    alt="Mega Slasher Playthrough"
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                ></video>
                                 <h3 className="text-xl font-bold mb-2">Mega Slasher</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     A 2D mobile & web clicker game targeting best score. Created as a Course project during BSSE.
@@ -344,12 +362,17 @@ export const Projects = () => {
                         <RevealOnScroll>
                             {/* Monster Chase */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
-                                    hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full">
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
-                                    alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full"
+                            >
+                                <video
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/MonsterChase.mp4`} 
+                                    alt="Monster Chase Playthrough"
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                ></video>
                                 <h3 className="text-xl font-bold mb-2">Monster Chase</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     A 2D infinite runner game created as a practice project. Followed a YouTube tutorial.
@@ -376,11 +399,11 @@ export const Projects = () => {
                             {/* Black Jack */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                     hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full">
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
-                                    alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                <img 
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/BlackJack.jpeg`} 
+                                    alt="Black Jack Preview" 
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                />
                                 <h3 className="text-xl font-bold mb-2">Black Jack</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     A simple game of Black Jack played on the browser. Created following a YouTube tutorial.
@@ -407,11 +430,11 @@ export const Projects = () => {
                             {/* People Counter */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                     hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full">
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
-                                    alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                <img 
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/PeopleCounter.jpeg`}
+                                    alt="People Counter Preview" 
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                />
                                 <h3 className="text-xl font-bold mb-2">People Counter</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     A simple project to calculate an increment and visualize that change in real time.
@@ -438,11 +461,11 @@ export const Projects = () => {
                             {/* Watch-Later Priority */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                     hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full">
-                                {/* <img 
-                                    src="/images/crypto-preview.png" 
-                                    alt="Cryptocurrency Tracker Preview" 
-                                    className="rounded-lg mb-4 border border-purple-500/20"
-                                /> */}
+                                <img 
+                                    src={`${import.meta.env.BASE_URL}ProjectMedia/WatchLaterList.jpeg`} 
+                                    alt="Wath Later List Preview" 
+                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
+                                />
                                 <h3 className="text-xl font-bold mb-2">Watch Later Priority List</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     Backend code to act as an extension to the YouTube watch-later list. Core-purpose was to allow videos
