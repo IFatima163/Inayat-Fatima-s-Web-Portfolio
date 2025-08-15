@@ -181,15 +181,15 @@ export const Projects = () => {
                             {/* Game Dev Portfolio */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                     hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full">
-                                <video
-                                    src={`${import.meta.env.BASE_URL}ProjectMedia/GamePortfolio.mp4`} 
+                                <video autoplay loop muted playsinline 
                                     alt="Game Dev Portfolio Playthrough"
-                                    autoPlay
-                                    muted
-                                    loop
-                                    playsInline
-                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
-                                ></video>
+                                    className="rounded-lg mb-4 border border-purple-500/20"
+                                >
+                                    <source 
+                                        src="https://drive.google.com/uc?export=download&id=1GyhwZxZ0uJnhy5Nu0UJS7Us31mPOzbxB" 
+                                        type="video/mp4" 
+                                    />
+                                </video>
                                 <h3 className="text-xl font-bold mb-2">2D Top-Down Tile-Based Game (Game Dev. Portfolio | Outdated)</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     Designed, developed, tested, and deployed (on itch.io) a 2D top-down tile-based game to showcase 
@@ -254,15 +254,15 @@ export const Projects = () => {
                             {/* Deaf & Dumb Comm. App */}
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                     hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full">
-                                <video
-                                    src={`${import.meta.env.BASE_URL}ProjectMedia/Deaf&Dumb.mp4`} 
+                                <video autoplay loop muted playsinline 
+                                    className="rounded-lg mb-4 border border-purple-500/20"
                                     alt="Deaf & Dumb Walkthrough"
-                                    autoPlay
-                                    muted
-                                    loop
-                                    playsInline
-                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
-                                ></video>
+                                >
+                                    <source 
+                                        src="https://drive.google.com/uc?export=download&id=1oCCF7ImcnBIf5uB17mqGf2I0g8isKc2J" 
+                                        type="video/mp4" 
+                                    />
+                                </video>
                                 <h3 className="text-xl font-bold mb-2">Deaf & Dumb Communication App</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     Full stack developed communication help to ease the communication process between those that 
@@ -292,15 +292,15 @@ export const Projects = () => {
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition"
                             >
-                                <video
-                                    src={`${import.meta.env.BASE_URL}ProjectMedia/KitchenChaos.mp4`} 
+                                <video autoplay loop muted playsinline 
+                                    className="rounded-lg mb-4 border border-purple-500/20"
                                     alt="Kitchen Chaos Playthrough"
-                                    autoPlay
-                                    muted
-                                    loop
-                                    playsInline
-                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
-                                ></video>
+                                >
+                                    <source 
+                                        src="https://drive.google.com/uc?export=download&id=1aQ7rJL4bd8tVoiYbQFk5K1aVsyaNQ8UM" 
+                                        type="video/mp4" 
+                                    />
+                                </video>
                                 <h3 className="text-xl font-bold mb-2">Kitchen Chaos</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     Practice Project single-player game used as training during my 4-month long internship. Followed a YouTube tutorial.
@@ -328,15 +328,15 @@ export const Projects = () => {
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition"
                             >
-                                <video
-                                    src={`${import.meta.env.BASE_URL}ProjectMedia/MegaSlasher.mp4`} 
+                                <video autoplay loop muted playsinline 
+                                    className="rounded-lg mb-4 border border-purple-500/20"
                                     alt="Mega Slasher Playthrough"
-                                    autoPlay
-                                    muted
-                                    loop
-                                    playsInline
-                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
-                                ></video>
+                                >
+                                    <source 
+                                        src="https://drive.google.com/uc?export=download&id=1FsYHF8Mbt5qpu8Hi92rHwazd2yszYJoz" 
+                                        type="video/mp4" 
+                                    />
+                                </video>
                                 <h3 className="text-xl font-bold mb-2">Mega Slasher</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     A 2D mobile & web clicker game targeting best score. Created as a Course project during BSSE.
@@ -364,15 +364,15 @@ export const Projects = () => {
                             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 
                                 hover:shadow-[0_2px_8px_rgba(59, 130, 2246, 0.2)] transition flex flex-col h-full"
                             >
-                                <video
-                                    src={`${import.meta.env.BASE_URL}ProjectMedia/MonsterChase.mp4`} 
+                                <video autoplay loop muted playsinline 
+                                    className="rounded-lg mb-4 border border-purple-500/20"
                                     alt="Monster Chase Playthrough"
-                                    autoPlay
-                                    muted
-                                    loop
-                                    playsInline
-                                    className="w-full h-48 md:h-64 lg:h-72 object-cover rounded-lg mb-4 border border-purple-500/20"
-                                ></video>
+                                >
+                                    <source 
+                                        src="https://drive.google.com/uc?export=download&id=1o9KV-Mr7zbg9kVJ2fRhaxtjNlVv_EfN3" 
+                                        type="video/mp4" 
+                                    />
+                                </video>
                                 <h3 className="text-xl font-bold mb-2">Monster Chase</h3>
                                 <p className="text-gray-400 mb-4 flex-grow">
                                     A 2D infinite runner game created as a practice project. Followed a YouTube tutorial.
