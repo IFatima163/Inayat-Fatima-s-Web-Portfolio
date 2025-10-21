@@ -36,13 +36,13 @@ This is my personal portfolio website built using React + Vite and styled with T
 ## Live Demo
 
 - [View Portfolio Live](https://ifatima163.github.io/Inayat-Fatima-s-Web-Portfolio/#projects)
-- [GitHub Repository](https://github.com/IFatima163/Inayat-Fatima-s-Web-Portfolio)
+  
 ## Built With
 - React + Vite
 - Tailwind CSS
 - EmailJS (or your mailing API)
 - GitHub Pages
-## 🧠 What I Learned
+## What I Learned
 Deepened understanding of component structure, responsive design, and state handling in React.
 
 Gained hands-on experience with form validation, deployment, and code organization.
