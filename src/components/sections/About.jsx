@@ -2,7 +2,7 @@ import RevealOnScroll from "../RevealOnScroll"
 
 export const About = () => {
     const coreFrontendSkills = ["React","Typescript","Tailwind CSS","Vite","ShadCN"]
-    const additionalFrontendSkills = ["HTML","CSS","Bootstrap","Framer Motion","Prettier"]
+    const additionalFrontendSkills = ["HTML","CSS","Bootstrap","Framer Motion","Prettier", "Lucide"]
     const coreBackendSkills = ["Python","Java","Javascript","SQL","OOP"]
     const additionalBackendExposure = ["C","C#"]
     const technicalExpertise = ["Full Stack Web Development","API Integration","AI & Machine Learning","Data Analysis & Visualization",

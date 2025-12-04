@@ -1,4 +1,15 @@
 export const projects = [
+  { //Demo Ecommerce Store
+    title: "Demo Ecommerce Store",
+    description: "A demo version of the potential structure, layout, and animations that can be used to build an ecommerce store from services and product portfolio to team members and their expertise.",
+    mediaType: "image",
+    mediaSrc: `${import.meta.env.BASE_URL}ProjectMedia/ecomStore.png`,
+    techStack: ["React", "TailwindCSS", "Vite", "Lucide"],
+    links: [
+      { href: "https://github.com/IFatima163/Demo-Ecommerce-Store", label: "Open in GitHub" },
+      { href: "https://ifatima163.github.io/Demo-Ecommerce-Store/", label: "View Website" }
+    ]
+  },
   { //Responsive Admin Dashboard
     title: "Responsive Admin Dashboard",
     description: "A responsive admin dashboard to view current system state, view charts, and make required updates. The web-app includes features like live alerts, error handling, and smooth UI styling.",
