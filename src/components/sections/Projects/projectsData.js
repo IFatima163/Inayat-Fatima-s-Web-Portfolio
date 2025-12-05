@@ -3,7 +3,7 @@ export const projects = [
     title: "Demo Ecommerce Store",
     description: "A demo version of the potential structure, layout, and animations that can be used to build an ecommerce store from services and product portfolio to team members and their expertise.",
     mediaType: "image",
-    mediaSrc: `${import.meta.env.BASE_URL}ProjectMedia/ecomStore.png`,
+    mediaSrc: `${import.meta.env.BASE_URL}ProjectMedia/EcomStore.png`,
     techStack: ["React", "TailwindCSS", "Vite", "Lucide"],
     links: [
       { href: "https://github.com/IFatima163/Demo-Ecommerce-Store", label: "Open in GitHub" },
