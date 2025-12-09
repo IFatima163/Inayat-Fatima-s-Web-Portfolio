@@ -58,6 +58,24 @@ export const Contact = () => {
                         >
                             <img src={`${import.meta.env.BASE_URL}ContactMeButtons/linkedin.png`} alt="LinkedIn" className="w-5 h-5" />
                             LinkedIn
+                        </a>                        
+                        <a
+                            href="https://www.fiverr.com/sellers/inayat_fatima"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
+                        >
+                            <img src={`${import.meta.env.BASE_URL}ContactMeButtons/fiverr.png`} alt="LinkedIn" className="w-5 h-5" />
+                            Fiverr
+                        </a>
+                        <a
+                            href="https://www.upwork.com/freelancers/~015829922c2a111372"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center gap-2 px-4 py-2 border border-white/10 rounded-xl hover:bg-white/10 transition"
+                        >
+                            <img src={`${import.meta.env.BASE_URL}ContactMeButtons/upwork.png`} alt="LinkedIn" className="w-5 h-5" />
+                            Upwork
                         </a>
                         <a
                             href="https://itch.io/dashboard"
