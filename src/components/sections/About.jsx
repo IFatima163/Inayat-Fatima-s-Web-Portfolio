@@ -7,7 +7,7 @@ export const About = () => {
     const additionalBackendExposure = ["C","C#"]
     const technicalExpertise = ["Full Stack Web Development","API Integration","AI & Machine Learning","Data Analysis & Visualization",
         "Game Development","Software Documentation","Agile & Scrum"]
-    const toolsUsed = ["Firebase","Supabase","GitHub","VS Code","Notion","Jupyter Notebook","Unity", "ApexCharts.js","Clerk"]
+    const toolsUsed = ["Wordpress","Hostinger","GoDaddy","Shopify","Squarespace","Wix","Firebase","Supabase","GitHub","VS Code","Notion","Jupyter Notebook","Unity", "ApexCharts.js","Clerk"]
     const designTools = ["Gimp","Canva"]
     const softSkills = ["Teamwork","Problem-solving","Research","Leadership","Communication","Adaptive"]
     const hobbies = ["Chess & Sudoku","Video Games","Art/ Painting","Anime, Manga, Books"]
@@ -29,8 +29,9 @@ export const About = () => {
                             <div>
                                 <p className="text-gray-300 mb-6">
                                     Focused on building responsive web applications using React and Tailwind CSS. 
-                                    Experienced in developing, deploying, and maintaining React-based web projects with 
-                                    API integrations. Looking for a remote junior frontend developer role.
+                                    Experienced in developing, deploying, and maintaining web-apps with 
+                                    API integrations. <br/><br/>
+                                    Open towards full-stack web development roles and collaboration opportunities.
                                 </p>
                                 <div className="grid grid-cols-1 md:grid-cols-1 gap-0.5">
                                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">

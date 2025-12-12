@@ -20,7 +20,7 @@ export const Home = () => {
                         className="text-gray-300 text-lg mb-8 max-w-lg opacity-0 fade-in-up"
                         style={{ animationDelay: "0.8s" }}
                     >
-                        Detail-oriented Frontend Developer with a background in data analysis, Fullstack Unity Development, and Content Writing. 
+                        Detail-oriented Full-stack Web Developer with a background in Data Analysis, Game Development, and Content Writing. 
                     </p>
 
                     <div 
