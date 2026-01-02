@@ -4,7 +4,7 @@ export const projects = [
     description: "The first Malaysian-based company offering tech-powered, insured, on-demand luggage solutions",
     mediaType: "image",
     mediaSrc: `${import.meta.env.BASE_URL}ProjectMedia/BagBuddy.png`,
-    techStack: ["Wordpress", "Hostinger", "GoDaddy"],
+    techStack: ["WordPress", "Hostinger", "GoDaddy"],
     links: [
       { href: "https://bagbuddy.asia/", label: "View Website" }
     ]

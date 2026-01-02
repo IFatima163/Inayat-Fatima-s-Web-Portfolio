@@ -31,7 +31,7 @@ export default function ProjectCard({
 
         {/* Title & Description */}
         <h3 className="text-xl font-bold mb-2">{title}</h3>
-        <p className="text-gray-400 mb-4 flex-grow">{description}</p>
+        <p className="text-gray-400 mb-4 grow">{description}</p>
 
         {/* Tech Stack */}
         <div className="flex flex-wrap gap-2 mb-4">
@@ -47,7 +47,7 @@ export default function ProjectCard({
         <div className="mt-auto flex justify-end gap-3">
           {links.map(({ href, label }, i) => (
             <a key={i} href={href} target="_blank"
-              className="bg-gradient-to-r from-purple-500 to-blue-400 text-white py-2 px-4 rounded 
+              className="bg-linear-to-r from-purple-500 to-blue-400 text-white py-2 px-4 rounded 
                          font-medium transition hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] hover:-translate-y-0.5">
               {label}
             </a>

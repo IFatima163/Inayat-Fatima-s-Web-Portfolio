@@ -7,7 +7,7 @@ export const About = () => {
     const additionalBackendExposure = ["C","C#"]
     const technicalExpertise = ["Full Stack Web Development","API Integration","AI & Machine Learning","Data Analysis & Visualization",
         "Game Development","Software Documentation","Agile & Scrum"]
-    const toolsUsed = ["Wordpress","Hostinger","GoDaddy","Shopify","Squarespace","Wix","Firebase","Supabase","GitHub","VS Code","Notion","Jupyter Notebook","Unity", "ApexCharts.js","Clerk"]
+    const toolsUsed = ["WordPress","Hostinger","GoDaddy","Shopify","Squarespace","Wix","Firebase","Supabase","GitHub","VS Code","Notion","Jupyter Notebook","Unity", "ApexCharts.js","Clerk"]
     const designTools = ["Gimp","Canva"]
     const softSkills = ["Teamwork","Problem-solving","Research","Leadership","Communication","Adaptive"]
     const hobbies = ["Chess & Sudoku","Video Games","Art/ Painting","Anime, Manga, Books"]
