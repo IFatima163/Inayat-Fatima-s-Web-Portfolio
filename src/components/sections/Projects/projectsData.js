@@ -1,4 +1,14 @@
-export const projects = [
+export const projects = [  
+  { //BagBuddy.asia
+    title: "Bag Buddy Asia",
+    description: "The first Malaysian-based company offering tech-powered, insured, on-demand luggage solutions",
+    mediaType: "image",
+    mediaSrc: `${import.meta.env.BASE_URL}ProjectMedia/BagBuddy.png`,
+    techStack: ["Wordpress", "Hostinger", "GoDaddy"],
+    links: [
+      { href: "https://bagbuddy.asia/", label: "View Website" }
+    ]
+  },
   { //Demo Ecommerce Store
     title: "Demo Ecommerce Store",
     description: "A demo version of the potential structure, layout, and animations that can be used to build an ecommerce store from services and product portfolio to team members and their expertise.",
