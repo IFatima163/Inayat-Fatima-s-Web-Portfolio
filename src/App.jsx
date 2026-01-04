@@ -31,7 +31,7 @@ function App() {
         <Testimonials />
         <Contact />
         <footer className="mt-12 text-center">
-          <p className="text-gray-500 text-sm pb-6">Last Updated - December 2025 | Thanks for visiting ♥</p>
+          <p className="text-gray-500 text-sm pb-6">Last Updated - January 2026 | Thanks for visiting ♥</p>
         </footer>
       </div>
     </>
