@@ -1,4 +1,14 @@
 export const projects = [  
+  { //Automated Process Extraction from Research Paper Abstracts
+    title: "Automated Process Extraction from Research Paper Abstracts",
+    description: "This code allows user to automate the repetetive task of going through every research paper abstract and picking out the methods mentioned that have been used in that paper.",
+    mediaType: "image",
+    mediaSrc: `${import.meta.env.BASE_URL}ProjectMedia/PaperProcessExtraction.png`,
+    techStack: ["Python"],
+    links: [
+      { href: "https://github.com/IFatima163/Process-Extraction-from-Research-Paper-Abstracts", label: "Open in GitHub" }
+    ]
+  },
   { //BagBuddy.asia
     title: "Bag Buddy Asia",
     description: "The first Malaysian-based company offering tech-powered, insured, on-demand luggage solutions",
